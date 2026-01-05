@@ -190,24 +190,8 @@ omni-inference-in-action/
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-org/omni-inference-in-action.git
+git clonehttps://github.com/FlyAIBox/omni-inference-in-action.git
 cd omni-inference-in-action
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 安装项目
-pip install -e .
-```
-
-### Docker 快速部署
-
-```bash
-# 构建镜像
-docker build -t omni-inference:latest .
-
-# 运行容器
-docker run -d --gpus all -p 8000:8000 omni-inference:latest
 ```
 
 ## 📊 性能对比
@@ -258,26 +242,77 @@ docker run -d --gpus all -p 8000:8000 omni-inference:latest
 - 🔧 提交代码修复
 - 🎯 分享使用案例
 
-## 📄 开源协议
+### ⚠️ 免责声明
+- 项目仅供学习和研究使用
+- 生产环境使用请充分测试
+- API密钥和数据安全请自行保障
+- 对使用本项目造成的损失不承担责任
 
-本项目采用 [Apache 2.0](LICENSE) 开源协议。
+---
 
-## 📞 联系我们
+## 📞 获取帮助
 
-- **Issue**: [GitHub Issues](https://github.com/your-org/omni-inference-in-action/issues)
-- **讨论**: [GitHub Discussions](https://github.com/your-org/omni-inference-in-action/discussions)
-- **邮件**: contact@example.com
+- 🐛 **Bug报告**: [GitHub Issues](https://github.com/FlyAIBox/omni-inference-in-action/issues)
+- 📧 **邮件联系**: fly910905@sina.com
+- 🔗 **微信公众号**: 萤火AI百宝箱
 
 ## 🙏 致谢
 
-感谢以下开源项目的支持：
-- [vLLM](https://github.com/vllm-project/vllm)
-- [SGLang](https://github.com/sgl-project/sglang)
-- 以及所有贡献者
+本项目使用了以下开源项目：
 
-## ⭐ Star History
+<table>
+<tr>
+<td align="center">
+<img src="https://pytorch.org/assets/images/logo-dark.svg" width="60">
+<br>PyTorch
+</td>
 
-如果这个项目对你有帮助，请给我们一个 Star ⭐！
+<td align="center">
+<img src="https://raw.githubusercontent.com/modelcontextprotocol/.github/refs/heads/main/profile/assets/light.png" width="70">
+<br>MCP
+</td>
+
+<td align="center">
+<img src="https://raw.githubusercontent.com/langchain-ai/.github/main/profile/logo-dark.svg#gh-light-mode-only" width="70">
+<br>Langchain
+</td>
+
+<td align="center">
+<img src="https://docs.sglang.io/_static/logo.png" width="60">
+<br>SGlnag
+</td>
+
+<td align="center">
+<img src="https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-light.png" width="60">
+<br>vllm
+</td>
+
+</tr>
+</table>
+
+特别感谢所有贡献者和社区成员的支持！
+
+---
+
+<div align="center">
+
+
+**⭐ 如果这个项目对你有帮助，请给个Star支持！⭐**
+
+<a href="https://star-history.com/#FlyAIBox/omni-inference-in-action&Date">
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FlyAIBox/omni-inference-in-action&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FlyAIBox/omni-inference-in-action&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FlyAIBox/omni-inference-in-action&type=Date" />
+  </picture>
+
+</a>
+
+**🔗 更多访问：[大模型实战101](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkzODUxMTY1Mg==&action=getalbum&album_id=3945699220593803270#wechat_redirect)**
+
+</div>
+
 
 ---
 
