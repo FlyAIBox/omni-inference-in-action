@@ -255,7 +255,7 @@ cd omni-inference-in-action
 - 🐛 **Bug报告**: [GitHub Issues](https://github.com/FlyAIBox/omni-inference-in-action/issues)
 - 📧 **邮件联系**: fly910905@sina.com
 - 🔗 **微信公众号**: 萤火AI百宝箱
-
+![扫码_搜索联合传播样式-标准色版](https://cdn.jsdelivr.net/gh/Fly0905/note-picture@main/imag/202601051117432.png)
 ## 🙏 致谢
 
 本项目使用了以下开源项目：
