@@ -1,0 +1,47 @@
+# Core Dependencies
+torch>=2.1.0
+transformers>=4.35.0
+accelerate>=0.25.0
+
+# Inference Frameworks
+# vllm>=0.2.6  # 待添加，根据实际版本确定
+# sglang>=0.1.0  # 待添加，根据实际版本确定
+
+# API Server
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# Database & Cache
+redis>=5.0.0
+pymongo>=4.6.0
+
+# Monitoring & Logging
+prometheus-client>=0.19.0
+loguru>=0.7.2
+wandb>=0.16.0
+
+# Development Tools
+pytest>=7.4.3
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.1
+black>=23.12.0
+flake8>=6.1.0
+mypy>=1.7.1
+isort>=5.13.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.1.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Docker & K8s (Optional)
+# kubernetes>=28.1.0
+# docker>=7.0.0
+
+# Hardware Support
+# pynvml>=11.5.0  # Nvidia GPU monitoring
+
